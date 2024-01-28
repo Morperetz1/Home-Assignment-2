@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-image: url(./Mor-Peretz.JPG);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,12 +12,12 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
-  background-color: rgb(27, 25, 25);
+header nav {
+  background-color: rgba(93, 79, 79, 0.452);
   box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.1);
 }
 
-nav ul {
+header nav ul {
   width: 100%;
   list-style: none;
   display: flex;
@@ -25,11 +25,11 @@ nav ul {
   align-items: center;
 }
 
-nav li {
+header nav li {
   height: 50px;
 }
 
-nav a {
+header nav a {
   height: 100%;
   padding: 0 30px;
   text-decoration: none;
@@ -38,11 +38,11 @@ nav a {
   color: white;
 }
 
-nav a:hover {
-  background-color: #5e5756;
+header nav a:hover {
+  background-color: #756c6b;
 }
 
-nav li:first-child {
+header nav li:first-child {
   margin-right: auto;
 }
 
@@ -84,6 +84,9 @@ nav li:first-child {
   .menu-button {
     display: block;
   }
+  #title {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -99,27 +102,41 @@ nav li:first-child {
 
 #title {
   font-family: Georgia, "Times New Roman", Times, serif;
-  position: absolute;
-  top: 20%;
-  left: 4%;
   font-size: 60px;
   color: white;
+  padding: 5%;
+  padding-left: 10%;
+  padding-bottom: 2%;
 }
 
 #title-degree {
   font-family: Georgia, "Times New Roman", Times, serif;
-  position: absolute;
-  top: 34%;
-  left: 4%;
   font-size: 30px;
   color: white;
+  display: flex;
+  padding: 10%;
+  padding-top: 0%;
 }
 
 #title-welcome {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  position: absolute;
   top: 85%;
   left: 4%;
   font-size: 20px;
+  padding-left: 10%;
+}
+
+.icons {
+  display: flex;
+  gap: 10%;
+  width: 15%;
+  height: 20%;
+  padding-left: 13%;
+  padding-top: 2%;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
 }
