@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: rgb(27, 25, 25);
+  box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.1);
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #5e5756;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.side-bar {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  right: 0;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+}
+
+.side-bar li {
+  width: 100%;
+}
+.side-bar a {
+  width: 100%;
+}
+.menu-button {
+  display: none;
+}
+
+#logo {
+  font-family: serif;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .hideonmobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .side-bar {
+    width: 100%;
+  }
+}
+
+#main-logo {
+  width: 110px;
+  height: 50px;
+}
+
+#title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  font-size: 60px;
+  color: white;
+}
+
+#title-degree {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 34%;
+  left: 4%;
+  font-size: 30px;
+  color: white;
+}
+
+#title-welcome {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 85%;
+  left: 4%;
+  font-size: 20px;
+}
