@@ -4,7 +4,7 @@
 }
 
 nav {
-  background-color: rgba(93, 79, 79, 0.452);
+  background-color: rgba(157, 147, 147, 0.664);
   box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.1);
 }
 
@@ -30,9 +30,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #756c6b;
+  background-color: #47403f;
 }
-
 nav li:first-child {
   margin-right: auto;
 }
