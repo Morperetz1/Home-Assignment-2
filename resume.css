@@ -1,0 +1,7 @@
+body {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./resume-img.jpg);
+}
