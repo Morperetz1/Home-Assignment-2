@@ -7,8 +7,9 @@ body {
 }
 .projects-sec {
   color: white;
-  padding-left: 6%;
+  padding-left: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding-right: 15px;
 }
 
 .projects-sec h1 {
@@ -17,11 +18,11 @@ body {
 }
 
 .projects-sec p {
-  padding-top: 2%;
+  padding-top: 4%;
 }
 .projects-sec img {
-  padding-right: 9%;
-  padding-top: 5%;
+  padding-right: 3%;
+  padding-top: 3%;
   height: 5%;
   width: 30%;
   float: right;
@@ -31,6 +32,8 @@ body {
 .projects-sec h2 {
   padding-top: 4%;
   display: flex;
+  padding-top: 1%;
+  text-align: center;
 }
 
 #handshake {
@@ -55,7 +58,7 @@ body {
 
 @media (max-width: 700px) {
   #handshake {
-    padding-right: 33%;
+    padding-right: 28%;
     height: 190px;
     width: 190px;
   }
@@ -64,5 +67,18 @@ body {
   }
   #origin-sentence {
     padding-left: 26%;
+  }
+  .projects-sec h2 {
+    padding-top: 4%;
+  }
+  .projects-sec {
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+  .projects-sec img {
+    height: 10%;
+    width: 40%;
+    padding-right: 2%;
+    padding-top: 10%;
   }
 }

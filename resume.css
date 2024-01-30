@@ -8,18 +8,36 @@ body {
 
 .about-sec {
   color: white;
-  padding-left: 6%;
+  padding-left: 45px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding-right: 15px;
 }
 .about-sec h1 {
   padding-top: 4%;
-  font-size: 30px;
+  font-size: 35px;
 }
-
+.about-sec ul {
+  padding-left: 18px;
+  padding-top: 13px;
+}
 h3 {
-  padding-top: 1%;
+  padding-top: 2%;
 }
 
 .about-sec p {
   padding-bottom: 3%;
+}
+
+@media (max-width: 700px) {
+  h3 {
+    padding-top: 3%;
+  }
+  .about-sec {
+    padding-left: 10px;
+    padding-right: 39px;
+  }
+
+  .about-sec h1 {
+    padding-top: 10%;
+  }
 }

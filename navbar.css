@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-  background-color: rgba(46, 40, 40, 0.664);
+  background-color: rgba(158, 155, 155, 0.902);
   box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.1);
 }
 
@@ -37,8 +37,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #8d7673cf;
+  background-color: #242222b2;
   transition: background-color 1s;
+  color: rgba(229, 92, 92, 0.626);
 }
 nav li:first-child {
   margin-right: auto;
@@ -51,13 +52,13 @@ nav li:first-child {
   right: 0;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(56, 49, 49, 0.509);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(25px);
 }
 
 .side-bar li {
@@ -73,6 +74,10 @@ nav li:first-child {
 #logo {
   font-family: serif;
   font-size: 30px;
+}
+
+.current-page {
+  background-color: #242222b2;
 }
 
 @media (max-width: 700px) {
