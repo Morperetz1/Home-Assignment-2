@@ -6,27 +6,27 @@ body {
   background-image: url(./handshake.jpg);
 }
 
-.about h1 {
+.about-sec h1 {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding-left: 6%;
   padding-top: 5%;
 }
 
-.about h3 {
+.about-sec h3 {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding-left: 6%;
   padding-top: 4%;
 }
 
-.about p {
+.about-sec p {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding-left: 6%;
   padding-top: 3%;
 }
-.about img {
+.about-sec img {
   padding-right: 9%;
   padding-top: 5%;
   height: 5%;
@@ -71,11 +71,11 @@ body {
     padding-left: 35%;
     padding-top: 2%;
   }
-  .about {
+  .about-sec {
     padding-left: 10px;
     padding-right: 25px;
   }
-  .about img {
+  .about-sec img {
     padding-right: 4%;
     padding-top: 7%;
     height: 10%;
