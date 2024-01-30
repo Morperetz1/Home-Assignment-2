@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(./projects-img.jpg);
+  background-image: url(./Images/projects-img.jpg);
 }
 .projects-sec {
   color: white;
