@@ -33,7 +33,7 @@ nav a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 nav a:hover {
