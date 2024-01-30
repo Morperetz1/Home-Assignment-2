@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #242222b2;
+  background-color: #c9bbbb;
   transition: background-color 1s;
   color: rgba(229, 92, 92, 0.626);
 }
@@ -58,7 +58,7 @@ nav li:first-child {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(200px);
 }
 
 .side-bar li {
