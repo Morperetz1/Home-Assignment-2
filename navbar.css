@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-  background-color: rgba(158, 155, 155, 0.902);
+  background-color: rgb(207, 199, 199);
   box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.1);
 }
 
@@ -52,13 +52,12 @@ nav li:first-child {
   right: 0;
   width: 250px;
   z-index: 999;
-  background-color: rgba(56, 49, 49, 0.509);
+  background-color: rgb(207, 199, 199);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  backdrop-filter: blur(200px);
 }
 
 .side-bar li {
